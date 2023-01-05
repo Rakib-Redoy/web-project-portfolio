@@ -11,13 +11,13 @@
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
-    height: 64px;
     color: #fff;
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 10px 35px;
+    padding: 0 35px;
     cursor: pointer;
+    height: 45px;
 
 }
 .nav-title{
@@ -43,7 +43,7 @@ nav ul{
     background-image: url(../images/header_bg.png) ,url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    background-size: 50% 66%, 6% 96%; 
+    background-size: 650px 400px, 90px 590px;
     
 }
 /* Bannner area start */
@@ -193,6 +193,8 @@ section{
     border: 0;
     width: 100%;
     padding: 18px 30px;
+    outline: none;
+    border-radius: 10px;
 }
 
 .section-description{
@@ -205,4 +207,6 @@ section{
 }
 .contact a{
     text-decoration: none;
+    padding-right: 30px;
+    cursor: pointer;
 }
