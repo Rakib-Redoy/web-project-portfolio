@@ -210,3 +210,6 @@ section{
     padding-right: 30px;
     cursor: pointer;
 }
+#textarea{
+    resize: none;
+}
